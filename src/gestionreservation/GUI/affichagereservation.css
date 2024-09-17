@@ -1,0 +1,60 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.root {
+    -fx-background-image:url('background.png');
+    -fx-background-size:cover;
+
+}
+.button {
+     -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-background-radius: 22;
+    -fx-border-radius: 20;
+    -fx-border-color: #2196f3;
+    -fx-font-size: 16;
+    -fx-text-fill: #2196f3;
+    -fx-border-width: 3;
+    
+}
+.button:hover{
+    -fx-font-weight: bold;
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 22;
+    -fx-font-size: 16;
+    -fx-text-fill:#2196f3;
+    -fx-border-color: #2a2757;
+    -fx-border-radius: 20;
+    -fx-border-width: 3;
+}
+.resplus
+ {
+    fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-background-radius: 22;
+    -fx-border-radius: 20;
+    -fx-border-color: #FFB6C1;
+    -fx-border-width: 3;
+}
+* Style pour la ListView *
+
+.list-cell {
+    -fx-background-color: transparent; /* Fond transparent pour chaque élément de la liste */
+    -fx-padding: 10px;
+    -fx-background-insets: 0;
+    -fx-text-fill: #333333; /* Couleur du texte */
+    -fx-font-size: 16; /* Taille de la police */
+    -fx-font-weight: bold; /* Texte en gras */
+}
+
+.list-cell:selected {
+    -fx-background-color: transparent; /* Fond transparent pour les éléments sélectionnés */
+    -fx-text-fill: #ffffff; /* Couleur du texte pour les éléments sélectionnés */
+}
+
+.list-view {
+    -fx-background-color: transparent; /* Fond transparent pour la liste */
+}
+
+
